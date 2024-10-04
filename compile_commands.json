@@ -1,0 +1,11 @@
+[
+{
+  "directory": "D:\\UQ_Sem3\\COSC7502\\COSC3500_Assignment_Code",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe", "-c", "-m64", "-O2", "-arch:AVX", "-std:c++11", "/EHsc", "-IC:\\Users\\hybcloud\\AppData\\Local\\.xmake\\packages\\o\\openblas\\0.3.28\\a0a572460b3d42ada3ad1509bb3f8d44\\include", "-IC:\\Users\\hybcloud\\AppData\\Local\\.xmake\\packages\\f\\fmt\\11.0.2\\49d7e51eb46d4effa0f33a6881f118e0\\include", "/openmp", "/openmp:experimental", "-DNDEBUG", "-Fobuild\\.objs\\benchmark_cpu\\windows\\x64\\release\\benchmark_cpu.cpp.obj", "benchmark_cpu.cpp"],
+  "file": "benchmark_cpu.cpp"
+},
+{
+  "directory": "D:\\UQ_Sem3\\COSC7502\\COSC3500_Assignment_Code",
+  "arguments": ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang-cl.exe", "-c", "-m64", "-O2", "-arch:AVX", "-std:c++11", "/EHsc", "-IC:\\Users\\hybcloud\\AppData\\Local\\.xmake\\packages\\o\\openblas\\0.3.28\\a0a572460b3d42ada3ad1509bb3f8d44\\include", "-IC:\\Users\\hybcloud\\AppData\\Local\\.xmake\\packages\\f\\fmt\\11.0.2\\49d7e51eb46d4effa0f33a6881f118e0\\include", "/openmp", "/openmp:experimental", "-DNDEBUG", "-Fobuild\\.objs\\benchmark_cpu\\windows\\x64\\release\\matrixMultiply.cpp.obj", "matrixMultiply.cpp"],
+  "file": "matrixMultiply.cpp"
+}]

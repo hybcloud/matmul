@@ -1,0 +1,1 @@
+scp matrixMultiply.cpp cosc7502:~/MatMul/matrixMultiply.cpp
