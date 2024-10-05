@@ -3,18 +3,7 @@
 // #define ENABLE_GPU
 // #define ENABLE_MPI
 
-// #define FLOATTYPE_FLOAT32
 #define FLOATTYPE_COMPLEX128
-
-//complex64
-#ifdef FLOATTYPE_FLOAT32
-#define floatType float
-#define cblas_xgemm cblas_sgemm
-#define xgemm sgemm
-#define SetOne { 1. }
-#define SetZero { 0. }
-#define SQUARE(x) (x*x)
-#endif
 
 //complex64
 #ifdef FLOATTYPE_COMPLEX128
@@ -26,7 +15,7 @@
 #define xorgqr zungqr
 #define floatTypeMKL MKL_Complex16
 #define floatTypeCUDA cuDoubleComplex
-#define SetOne { 1, 0 }
-#define SetZero { 0 }
+#define SetOne floatType{ 1., 0. }
+#define SetZero floatType{ 0. }
 #define SQUARE(x) (x.real()*x.real()+x.imag()*x.imag())
 #endif
